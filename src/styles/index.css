@@ -1,0 +1,22 @@
+@font-face {
+  font-family: sora;
+  src: "Sora", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.roomContainer {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
