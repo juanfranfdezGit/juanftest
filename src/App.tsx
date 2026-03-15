@@ -16,7 +16,7 @@ function App() {
 
   return (
     <div className="roomContainer flex">
-      <Room onInteract={(type) => setActiveInteraction(type)} debug={debug} />
+      <Room debug={debug} />
 
       {/* UI Overlay */}
       {activeInteraction && (
