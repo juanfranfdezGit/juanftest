@@ -13,13 +13,11 @@ import SoftSkills from "./bookComponents/softSkills";
 export default function BookshelfOverlay() {
   const [page, setPage] = useState(0);
 
-  // páginas ya giradas
-  const getPageClass = (index) => {
+  const getPageClass = (index: number) => {
     return page > index ? "next" : "";
   };
 
-  // páginas visibles
-  const isFocused = (index) => {
+  const isFocused = (index: number) => {
     return index === page || index === page - 1;
   };
 
